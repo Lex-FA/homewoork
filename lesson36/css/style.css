@@ -1,0 +1,30 @@
+body {
+   font-size: 20px;
+}
+* {
+   box-sizing: content-box;
+}
+.block {
+      width: 1320px;
+      height: 500px;
+      background-color: #ffffff;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border: 1px solid #000000;
+      overflow: auto;
+
+}
+.block-1 {
+   text-align: center;
+   /* font-family: "Neucha", "Arial"; */
+   width: 360px;
+   height: 150px;
+   background-color: #ecc89c;
+   padding: 20px 20px;
+   margin: 20px 15px 15px 10px;
+   border: 2px solid #000000;
+   border-radius: 20px;
+   box-shadow: 27px -23px 31px -9px rgba(159, 159, 159, 0.41), -22px 22px 48px -14px rgba(159, 159, 159, 0.94) inset;
+display: inline-block;
+opacity: 0.9;
+}
