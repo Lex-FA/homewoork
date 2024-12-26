@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Lavishly Yours';
+    src:
+        local('Lavishly Yours Regular'),
+        local('LavishlyYours-Regular'),
+        url('../fonts/LavishlyYours-Regular.woff2') format('woff2'),
+        url('../fonts/LavishlyYours-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
