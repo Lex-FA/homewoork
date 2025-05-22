@@ -1,0 +1,61 @@
+.containerHeader {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.headerContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: 20px;
+}
+
+.headerLogo {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+	color: #101010;
+}
+
+.headerIcons {
+	display: flex;
+	justify-content: space-between;
+	gap: 55px;
+}
+
+.cartIcon, .likeIcon {
+	cursor: pointer;
+	transition: all .5s ease;
+	width: 23px;
+	height: 23px;
+	color: #838383;
+}
+
+.cartIcon:hover, .likeIcon:hover {
+	color: #FFA542;
+	transform: scale(1.4);
+}
+
+.cartIcon {
+	position: absolute;
+}
+
+.cartLengthCart {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	background-color: #FFA542;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #FFFFFF;
+	top: -8px;
+	left: 14px;
+	width: 18px;
+	height: 18px;
+	border: 1px #3f303054 solid;
+}
